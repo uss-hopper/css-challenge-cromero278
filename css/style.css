@@ -5,14 +5,54 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
+
 html, body {
+	font-family: 'VT323', monospace;
 	margin: 0;
 	box-sizing: border-box;
 }
 
 .container {
-	margin: 0 auto;
 	padding: 0 2rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+header {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding-top: -30px;
+	background-color: #333333;
+	color: #00FF00;
+}
+
+h1{
+	flex-grow: 1;
+}
+
+
+.instructions-wrapper {
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 15px;
+
+}
+
+img[src="images/welcome.gif"] {
+	display: block;
+	margin: 0 auto;
+}
+
+img[src="images/captain-janeway.png"] {
+	height: 150px;
+	width: auto;
+	float: right;
 }
 
 .clearfix {
