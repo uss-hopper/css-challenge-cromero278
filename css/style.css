@@ -57,13 +57,16 @@ img[src="images/welcome.gif"] {
 img[src="images/captain-janeway.png"] {
 	height: 150px;
 	width: auto;
-	padding: 15px;
+	padding-left: 60px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 
 .instructions-content {
-	flex: 1;
-	padding: 2rem;
+	flex:1;
+	padding: 15px;
 }
 
 .instructions-content h2 {
@@ -93,6 +96,8 @@ img[src="images/stunning.jpg"] {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 15px;
+
 }
 
 .container-skills h2{
@@ -110,6 +115,41 @@ td, th {
 	text-align: left;
 }
 
+.container-form{
+	padding: 0 2rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #333333;
+}
+
+.form-wrapper{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: green;
+	color: #00FF00;
+	padding: 15px;
+	width: 50%;
+
+}
+
+
+label{
+	display: block;
+	padding: 5px;
+}
+
+button{
+	background-color: #00FF00;
+	margin: 10px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+}
 
 .clearfix {
 	clear: both;
