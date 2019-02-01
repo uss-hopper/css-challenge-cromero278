@@ -7,7 +7,7 @@
 ******************************************************/
 
 html, body {
-	font-family: 'VT323', monospace;
+	font-family: monospace;
 	margin: 0;
 	box-sizing: border-box;
 }
@@ -19,22 +19,32 @@ html, body {
 	margin-right: auto;
 	width: 50%;
 }
+
+.section{
+	padding: 2.75rem 0;
+}
 header {
-	display: flex;
-	display: -webkit-flex;
-	flex-wrap: wrap;
-	margin: 0 auto;
-	padding-top: -30px;
 	background-color: #333333;
 	color: #00FF00;
 }
 
-h1{
-	flex-grow: 1;
+header h1{
+	display: inline-block;
+	margin-right: 2rem;
+	font-size: 2.3rem
+}
+
+img[src="images/welcome.gif"] {
+	display: block;
+	margin: 0 auto;
 }
 
 
+
+
 .instructions-wrapper {
+	display: flex;
+	align-items: flex-start;
 	border-style:solid;
 	border-width:2px;
 	border-color:black;
@@ -44,16 +54,62 @@ h1{
 
 }
 
-img[src="images/welcome.gif"] {
-	display: block;
-	margin: 0 auto;
-}
-
 img[src="images/captain-janeway.png"] {
 	height: 150px;
 	width: auto;
-	float: right;
+	padding: 15px;
 }
+
+
+.instructions-content {
+	flex: 1;
+	padding: 2rem;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+.about-me {
+	background-color: blue;
+	color: white;
+padding: 30px;
+}
+
+.about-me p span{
+	color:yellow;
+	font-style: italic;
+}
+
+img[src="images/stunning.jpg"] {
+	height: 200px;
+	width: auto;
+	float: left;
+	border: 2px solid white;
+	margin-right: 20px;
+}
+.container-skills{
+	padding: 0 2rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container-skills h2{
+	text-align: right;
+}
+
+table{
+
+	color: #00FF00;
+	width: 100%;
+}
+td, th {
+	background-color: #333333;
+	padding: 5px;
+	text-align: left;
+}
+
 
 .clearfix {
 	clear: both;
